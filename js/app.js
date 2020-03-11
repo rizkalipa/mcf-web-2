@@ -650,3 +650,16 @@ $('#btnHitung').click(function (e) {
   $(parent).next().remove();
   $(parent).after(estimasiString);
 })
+
+window.addEventListener('scroll', function (e) {
+  let scrollY = this.scrollY;
+  let topOffsetY = document.getElementById('before-header').offsetTop;
+
+  if (scrollY >= topOffsetY) {
+    document.getElementById('before-header').classList.add('sticky');
+  }
+
+  if (scrollY == 0) {
+    document.getElementById('before-header').classList.remove('sticky');
+  }
+});
