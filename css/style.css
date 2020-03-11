@@ -1,0 +1,996 @@
+body{
+	font-family: 'Roboto';
+}
+
+h4 {
+	margin: 0;
+}
+
+.nav-item a {
+	font: Reguler Robot !important;
+	font-size: 18px;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	font-size: 18px;
+}
+
+.dropdown-menu a,
+#karir-content p {
+	font: Reguler Roboto !important;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	font-size: 16px;
+}
+
+.nav-link img {
+	margin-right: 30px;
+}
+
+/* Carousel */
+.banner-simulasi {
+	height: 290px;
+	background-color: #FBD335;
+}
+
+.banner-simulasi h6 {
+	font: Reguler Roboto !important;
+	color: #000000;
+	text-align: left;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+.banner-simulasi h2 {
+	font: Bold Roboto !important;
+	color: #000000;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+.banner-simulasi p {
+	text-align: left;
+	font: Light Roboto !important;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: #000000;
+	opacity: 1;
+}
+
+.banner-simulasi a {
+	text-align: left;
+	font: Medium Roboto !important;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-right: 5px;
+}
+
+.banner-simulasi a.btn {
+	background-color: #EF961F;
+}
+
+label {
+	margin: 0;
+}
+
+.icon-product {
+	text-align: center;
+	margin: 0 15px;
+	height: 210px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.icon-product img {
+	width: auto;
+	max-width: 160px;
+	height: 80px;
+}
+
+#artikel-terbaru button{
+	background-color: #EF961F;
+}
+
+.home-banner-footer {
+	background: url("../img/karir/64857.png") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	position: relative;
+	color: white;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.home-banner-footer .row {
+	position: relative;
+	z-index: 99;
+}
+
+.home-banner-footer h1 {
+	font-size: 55px;
+}
+
+.home-banner-footer .container,
+.home-banner-footer .row {
+	height: 100%;
+}
+
+.home-banner-footer::after {
+	content: "";
+	position: absolute;
+	background: black;
+	width: 100%;
+	height: 350px;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+}
+
+.overlay {
+	position: relative;
+}
+
+.overlay::after {
+	content: "";
+	position: absolute;
+	background: black;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+}
+
+#before-footer a {
+	color: #656565;
+}
+
+#before-footer a:hover {
+	text-decoration: none;
+	color: #FBCB31;
+}
+
+.daftar-kategori,
+.menu-profile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.daftar-kategori p,
+.menu-profile p {
+	margin: 0;
+}
+
+.daftar-kategori a,
+.menu-profile a {
+	color: #656565;
+}
+
+.artikel-item {
+	min-height: 500px;
+	position: relative;
+	overflow: hidden;
+	transition: all 5s ease-in-out;
+}
+
+.artikel-item .artikel-heading {
+	width: 100%;
+	padding: 10px;
+	background-color: white;
+	overflow: hidden;
+	position: absolute;
+	bottom: 10;
+	transition: 0.5s;
+}
+
+.artikel-item:hover .artikel-heading {
+	bottom: 0;
+}
+
+.artikel-item .img-artikel {
+	width: 350px;
+}
+
+#artikel-konten {
+	transform: translateY(-70px);
+}
+
+#data-pengajuan label {
+	font-weight: bold;
+}
+
+#data-pengajuan h5{
+	background-color: #E75B27;
+	font: Bold Roboto !important;
+	font-size: 14px;
+	font-weight: 550;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#data-pengajuan button{
+	background-color: #EF961F;
+	font: Medium Roboto !important;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#data-pengajuan .flat-button {
+	border: 1px solid #EEEEEE;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	background-color: #EF961F;        /* ubah warna background */
+	color: #FFFFFF; 				  /* ubah warna font */
+	font: Medium Roboto !important;  /* ubah font */               
+	font-size: 14px;                  /* ubah ukuran font */
+	letter-spacing: 0;
+	opacity: 1;
+	width: 150px;					  /* ubah lebar */
+	height: 30px;    				  /* ubah tinggi */
+	font-weight: 500;
+	border-radius: 7px;
+}
+#data-pengajuan .flat-button:hover {
+	background-color: #FFFFFF;
+	color: #EF961F;                   /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+#data-pengajuan .flat-button:active {
+	background: #FFFFFF;
+	color: #656565; 
+	/*background: #FBCB31;               ubah background saat button ditekan */
+}
+
+.box-ktp {
+	width: 220px;
+	height: 120px;
+	border: 1px dotted #656565;
+	margin: 20px 0;
+}
+
+.ktp-box {
+	width: 100px;
+	height: 100px;
+	border: 1px dashed #656565;
+	margin: 10px 0;
+}
+
+.approval {
+	font-weight: normal !important;
+	font-size: 0.9rem;
+}
+
+#profile .menu-profile {
+	border-bottom: 3px solid #FDD232;
+	padding-bottom: 10px;
+}
+
+#profile .disorot p{
+	font: Regular Roboto !important;
+	font-size: 18px;
+	font-weight: 400;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+
+}
+
+#profile .disorot p:visited{
+	font: Bold Roboto !important;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FBCB31;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#profile .disorot p:hover{
+	font: Bold Roboto !important;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FBCB31;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#profile .form-group a{
+	font: Medium Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 0px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 283px;
+	height: 40px;
+	padding-top: 10px;
+}
+
+.submit-question-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	transition: ease-in-out 1.5s;
+}
+
+.visible {
+	display: block;
+}
+
+#modal-question {
+	background: url('../img/banner-footer.png');
+	min-height: 450px;
+	background-size: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.submit-question {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 400px;
+	padding: 10px;
+	text-align: center;
+}
+
+.submit-question .btn {
+	width: 150px !important;
+}
+
+.grid-button {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-auto-columns: 10px;
+	width: 40%;
+	margin: auto;
+	justify-items: center;
+	margin-top: 0;
+}
+
+#top-karir h1{
+	font: Bold Roboto !important;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 550;
+	margin-top: 50px;
+}
+
+#top-karir .jumbotron{
+	height: 295px;
+	background: url('../img/karir/64857.png') no-repeat;
+	background-color: #050000;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 0;
+	overflow: hidden;
+}
+
+#before-header .nav-item a{
+	font: Regular Roboto !important;
+	color: #656565;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#before-header .nav-item a:hover{
+	font: Bold Roboto !important;
+	color: #FBCB31;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#before-header .dropdown-menu a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #FBCB31;
+	font-weight: 600;
+}
+
+.mainmenudropdown{
+	background-color: white;
+    color: #656565;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+	display: none;
+    background-color: white	;
+    min-width: 100px;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#karir-content,
+#list-artikel{
+	transform: translateY(-60px);
+}
+
+#karir-content h1{
+	text-align: center;
+	font: Bold Roboto !important;
+	font-size: 32px;
+	font-weight: 550;
+	color: #FBCB31;
+}
+
+#karir-content p{
+	text-align: center;
+	font: Reguler Roboto !important;
+	font-size: 14px;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#karir-content h4{
+	text-align: center;
+	font: Bold Roboto !important;
+	font-size: 16px;
+	font-weight: 550;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#karir-content .img-karir{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+#karir-content h5{
+	font: Bold Roboto !important;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 550;
+	margin-top: 50px;
+}
+
+#karir-content .jumbotron{
+	height: 295px;
+	background: url('../img/karir/64857.png') no-repeat;
+	background-color: #050000;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0px 60px;
+	overflow: hidden;
+}
+
+#karir-content .kotak {
+	width: 170px;
+	height: 195px;
+}
+
+#karir-content .kotak h4{
+	font: Medium Roboto !important;
+	font-size: 16px;
+	font-weight: 500;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#karir-content .custom-button button {
+	background-color: #EEEEEE;
+}
+
+#karir-content .custom-button span {
+	text-align: left;
+}
+
+#karir-content .custom-button h4 {
+	font: Bold Roboto !important;
+	font-size: 14px;
+	font-weight: 700;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.table-container {
+	overflow: auto;
+}
+
+.table-container .table {
+	width: 1350px;
+}
+
+.table-container .table td {
+	max-width: 500px !important;
+}
+
+.table-container .dropdown-item{
+	color: #656565;
+}
+
+#map-wrapper {
+	position: relative;
+}
+
+.pointer-map {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 500px;
+	bottom: 28%;
+	left: 26%;
+}
+
+.pointer-data {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.pointer-map:hover .pointer-data {
+	display: block;
+}
+
+.custom-input-mcf {
+	padding: 12px 0 10px 0;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #e0e0e0;
+	box-sizing: border-box;
+}
+
+.custom-input-mcf:focus {
+	outline: none;
+	border-bottom: 2px solid #FDD232;
+}
+
+.button-flat {
+	border: 1px solid #EEEEEE;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	background-color: #FFFFFF;        /* ubah warna background */
+	color: #656565; 				  /* ubah warna font */
+	font: Regular Roboto !important;  /* ubah font */               
+	font-size: 12px;                  /* ubah ukuran font */
+	width: 100px;					  /* ubah lebar */
+	height: 31px;    				  /* ubah tinggi */
+}
+.button-flat:hover {
+	background-color: #FBCB31;
+	color: #FFFFFF;                   /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+.button-flat:active {
+	background: #FFFFFF;
+	color: #656565; 
+	/*background: #FBCB31;               ubah background saat button ditekan */
+}
+
+.button-personal {
+	border: 1px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 283px;
+	height: 40px;
+}
+
+.button-personal a {
+	color: #FFFFFF;
+	font: Medium Roboto !important;
+	font-size: 16px;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 500;
+}
+
+.button-custom {
+	/*border: 1px solid #EEEEEE;         border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	color: #656565; 				  /* ubah warna font */
+	font: Regular Roboto !important;  /* ubah font */               
+	font-size: 16px;                  /* ubah ukuran font */
+	width: 46px;					  /* ubah lebar */
+	font-weight: 400;
+	height: 46px;    				  /* ubah tinggi */
+}
+.button-custom:hover {
+	color: #FBCB31;                   /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+	font-weight: 700;
+}
+.button-custom:active {
+	color: #656565; 
+	font: Regular Roboto !important;
+	font-size: 16px;  
+	font-weight: 400;
+	/*background: #FBCB31;               ubah background saat button ditekan */
+}
+
+
+#karir-table p{
+	text-align: left;
+	font: Bold Roboto !important;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #656565;
+	opacity: 1;
+}
+
+#karir-table li{
+	text-align: left;
+	font: Regular Roboto !important;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0;
+	color: #656565;
+	opacity: 1;
+}
+
+#karir-table .accordion a{
+	text-align: left;
+	font: Bold Roboto !important;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #656565;
+	opacity: 1;
+}
+
+#form-register .custom-text h2{
+	font: Bold Roboto !important;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 32px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-register h5{
+	font: Bold Roboto !important;
+	font-weight: 700;
+	color: #FBCB31;
+	font-size: 32px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-register .custom-text p {
+	font: Regular Roboto !important;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-register .form-group label{
+	font: Regular Roboto !important;
+	font-weight: 400;
+	color: #FBCB31;
+	font-size: 10px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-register .form-check label{
+	font: Regular Roboto !important;
+	font-weight: 400;
+	color: #656565;
+	font-size: 12px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-register .form-group a{
+	font: Medium Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 1px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+}
+
+#verifikasi-akun .button-verifikasi a{
+	font: Medium Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 0px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 384px;
+	height: 40px;
+	padding-top: 10px
+}
+
+#form-login .custom-text h2{
+	font: Bold Roboto !important;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 32px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-login .custom-text p {
+	font: Regular Roboto !important;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-login .form-group label{
+	font: Regular Roboto !important;
+	font-weight: 400;
+	color: #FBCB31;
+	font-size: 10px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-login .button-cs a {
+	font: Medium Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 1px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+}
+
+#form-login .button-cs a:hover{
+	background-color: #FFFFFF;
+	color: #FBCB31;
+}
+
+#form-login .button-cs a:visited{
+	outline: none;
+	border-color: #FBCB31;
+}
+
+#form-login h5,
+#karir-content h3{
+	font: Bold Roboto !important;
+	font-weight: 700;
+	color: #FBCB31;
+	font-size: 32px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-login h3{
+	font: Bold Italic Roboto !important;
+	font-weight: 700;
+	color: #656565;
+	font-size: 16px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-login .text-muted em{
+	font: Bold Italic Roboto !important;
+	font-weight: 700;
+	color: #656565;
+	font-size: 12px;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#form-lupa-password-baru .form-group a{
+	font: Medium Roboto !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 0px solid #EEEEEE;
+	background-color: #FBCB31;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+}
+
+
+
+/*#modal-formpengajuan .modal-title{
+	font: Bold Roboto !important;
+	font-size: 14px;
+	font-weight: 700;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	text-align: center;
+}*/
+
+#modal-formpengajuan .modal-body{
+	font: Regular Roboto !important;
+	font-size: 13px;
+	font-weight: 400;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	text-align: center;
+}
+
+#modal-formpengajuan .modal-footer a{
+	text-align: center;
+	background-color: #EF961F;
+	color: #FFFFFF;
+	font: Medium Roboto !important;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0;
+	opacity: 1;
+	border: 1px solid #EEEEEE;
+	width: 130px;
+	height: 30px;
+}
+
+#top-pengajuan h1,
+#top-artikel h1 {
+	font: Bold Roboto !important;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 550;
+	margin-top: 50px;
+}
+
+#top-pengajuan .jumbotron {
+	height: 314px;
+	background: url('../img/bg-motor.png') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 15% 85%;
+	overflow: hidden;
+}
+
+#top-artikel .jumbotron {
+	height: 314px;
+	background: url('../img/bg-artikel.png') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: -750px;
+	overflow: hidden;
+}
+
+#list-artikel .col-auto a{
+	font: Regular Roboto !important;
+	font-size: 18px;
+	font-weight: 400;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#list-artikel .col-auto a:hover{
+	color: #FBCB31;
+	font: Bold Roboto !important;
+	font-weight: 700;
+	font-size: 18px;
+	color: #FBCB31;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#list-artikel .artikel-item a{
+	border: 1px solid #EEEEEE;  
+	height: 30px;
+	width: 150px;
+	background-color: #EF961F;
+	font: Medium Roboto !important;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#list-artikel .pagination a{
+	font: Regular Roboto !important;
+	font-size: 14px;
+	font-weight: 400;
+	color: #656565;
+	letter-spacing: 0;
+	opacity: 1;
+	text-decoration: none;
+}
+
+#artikel-konten .deskripsi p{
+	font: Regular Roboto !important;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FBCB31;
+	letter-spacing: 0;
+	opacity: 1;
+}
+
+#artikel-konten .deskripsi .card-header{
+	height: 10px;
+	background-color: #FBCB31; 
+}
+
+#tag-section a{
+	border: 1px solid #EEEEEE;
+	height: 50px;
+	width: 150px;
+	background-color: #FBCB31;
+	font: Medium Roboto !important;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#top-produk h1{
+	font: Bold Roboto !important;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 550;
+	margin-top: 50px;
+}
+
+#top-produk .jumbotron{
+	height: 314px;
+	background: url('../img/bg-motor.png') no-repeat;
+	background-color: #050000;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: -90px;
+	overflow: hidden;
+}
