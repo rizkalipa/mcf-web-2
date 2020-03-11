@@ -613,6 +613,9 @@ if (karirTable != null) {
   document.getElementById('karir-table').addEventListener('click', function (e) {
     if (e.target.textContent == 'Apply Now') {
       let parent = e.target.parentNode.parentNode;
+      let table = e.target.parentNode.parentNode.parentNode.parentNode.parentNode;
+
+      $(table).scrollLeft(-500);
       $(parent).find('.collapse').removeClass('show');
 
       $(parent).fadeOut(200, 'swing', function () {
