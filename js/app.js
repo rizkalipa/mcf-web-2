@@ -634,25 +634,43 @@ if (karirTable != null) {
   });
 }
 
-$('#btnHitung').click(function (e) {
-  let parent = e.target.parentNode.parentNode.parentNode.parentNode;
+function estimasiHitung(elementToChange) {
+  let parent = elementToChange;
   let estimasiString = `
-    <div class="card">
-        <div class="card-body text-center">
-            <h3><b>Estimasi Angsuran Anda</b></h3>
-            <h3>Rp. 3.456.500 /bulan</h3>
-            <p>
-                Perhitungan ini hanya bersifat sementara dan dapat berubah sesuai dengan
-                ketentuan MCF MAF. Ajukan pembiayaan Anda kemudian kami akan menghubungi untuk
-                detail lebih lanjut
-            </p>
+    <div class="alert alert-white alert-dismissible fade show p-0 position-relative" style="z-index: 99"
+              role="alert">
+      <div class="card text-center">
+        <div class="card-body">
+          <h3><b>Estimasi Angsuran Anda</b></h3>
+          <h3>Rp. 3.456.500 /bulan</h3>
+          <p>
+            Perhitungan ini hanya bersifat sementara dan dapat berubah sesuai dengan
+            ketentuan MCF MAF. Ajukan pembiayaan Anda kemudian kami akan menghubungi untuk
+            detail lebih lanjut
+          </p>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+      </div>
     </div>
   `;
 
   $(parent).next().remove();
   $(parent).after(estimasiString);
+}
+
+$('#btnHitung').click(function (e) {
+  let parent = e.target.parentNode.parentNode.parentNode.parentNode;
+  estimasiHitung(parent);
 })
+
+$('#btnHitungHome').click(function (e) {
+  let parent = e.target.parentNode.parentNode.parentNode.parentNode;
+  // $(e.target.parentNode.parentNode.parentNode).remove();
+  estimasiHitung(parent);
+})
+
 
 window.addEventListener('scroll', function (e) {
   let scrollY = this.scrollY;
