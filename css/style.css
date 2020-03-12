@@ -420,6 +420,12 @@ label {
 	font-weight: 600;
 }
 
+#before-header .dropdown-menu a:hover::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f105";
+	margin-right: 8px;
+}
+
 .mainmenudropdown {
 	background-color: white;
 	color: #656565;
