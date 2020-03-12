@@ -684,3 +684,64 @@ window.addEventListener('scroll', function (e) {
     document.getElementById('before-header').classList.remove('sticky');
   }
 });
+
+document.getElementById('jaminan-pinjaman').addEventListener('change', function (e) {
+  let fieldJaminan = e.target.value;
+  let fieldMerk = document.getElementById('merk-barang-pengajuan');
+  let fieldTipe = document.getElementById('tipe-barang-pengajuan');
+
+  let merkBarang, tipeBarang;
+
+  if (fieldJaminan == 'bpkb-mobil') {
+    merkBarang = {
+      label: 'Merk Mobil',
+      value: [
+        'Toyota',
+        'Honda',
+      ]
+    };
+
+    tipeBarang = {
+      label: 'Tipe Mobil',
+      value: [
+        'Avanza',
+        'Xenia'
+      ]
+    };
+  } else if (fieldJaminan == 'bpkb-motor') {
+    merkBarang = {
+      label: 'Merk Motor',
+      value: [
+        'Yamaha',
+        'Honda',
+      ]
+    };
+
+    tipeBarang = {
+      label: 'Tipe Motor',
+      value: [
+        'Mio M3',
+        'Xeon 125'
+      ]
+    };
+  }
+
+  let stringMerk = `
+    <label for="merk-mobil" class="mb-2">${ merkBarang.label }</label>
+    <select name="" id="merk-mobil" class="form-control">
+        <option value="">${ merkBarang.value[0] }</option>
+        <option value="">${ merkBarang.value[1] }</option>
+    </select>
+  `;
+
+  let stringTipe = `
+    <label for="tipe-mobil" class="mb-2">${ tipeBarang.label }</label>
+    <select name="" id="tipe-mobil" class="form-control">
+        <option value="">${ tipeBarang.value[0] }</option>
+        <option value="">${ tipeBarang.value[1] }</option>
+    </select>
+  `;
+
+  fieldMerk.innerHTML = stringMerk;
+  fieldTipe.innerHTML = stringTipe;
+});
