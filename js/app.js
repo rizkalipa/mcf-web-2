@@ -267,7 +267,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="knodisi-motor" class="mb-2">Kondisi motor</label>
@@ -282,7 +281,6 @@ function fillForm(submitData) {
                     <input type="text" class="form-control" placeholder="Rp ..." value="${ submitData['hargaMotor']}">
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="merk" class="mb-2">Merk</label>
@@ -303,7 +301,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="type" class="mb-2">Tipe motor</label>
@@ -329,9 +326,7 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <p class="text-center bg-danger p-2 text-white rounded mt-4 mb-5">Data Pribadi</p>
-
                 <!-- Data Pribadi -->
                 <div class="form-row">
                   <div class="form-group col-md-5">
@@ -346,7 +341,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="tempat-tanggal-lahir" class="mb-2">Tempat, Tanggal Lahir</label>
@@ -364,7 +358,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="no-handphone" class="mb-2">No Handphone</label>
@@ -378,7 +371,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="no-telepon" class="mb-2">No Telepon</label>
@@ -396,7 +388,6 @@ function fillForm(submitData) {
                     </select>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="jenis-identitas" class="mb-2">Kartu Identitas</label>
@@ -415,7 +406,6 @@ function fillForm(submitData) {
                     <textarea name="" cols="30" rows="5" class="form-control">${ submitData['alamat'] }</textarea>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="form-group col-md-5">
                     <label for="pekerjaan" class="mb-2">Pekerjaan</label>
@@ -432,7 +422,6 @@ function fillForm(submitData) {
                     </div>
                   </div>
                 </div>
-
                 <div class="form-row mt-4">
                   <div class=" form-group col-md-12 d-flex flex-column justify-content-around m-0">
                     <div class="form-group m-0">
@@ -451,7 +440,6 @@ function fillForm(submitData) {
                     </div>
                   </div>
                 </div>
-
                 <div class="form-row mt-4">
                   <div class="col-md-12">
                     <button class="btn btn-primary px-4">Submit</button>
